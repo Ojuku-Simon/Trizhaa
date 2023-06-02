@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+.navbar-brand img{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    margin-left: 60px;
+}
+
+.collapse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+   
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+.carousel-item img{
+    height: 100vh;
+    /* width: min-content; */
+    object-fit: cover;
+    background-size: cover;
+}
+
+.carousel{
+    z-index:-2;
+}
+
+.navbar-nav li a:hover{
+    color: white;
+}
+
+
+
